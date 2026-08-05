@@ -4,9 +4,6 @@ Sorts the files directly inside a chosen folder into subfolders by year,
 based on each file's last-modified date. Subfolders are left alone, so it
 won't touch anything that's already organized.
 
-Usage:
-    python file_organizer.py "C:\\Users\\User\\Downloads"
-    python file_organizer.py "C:\\Users\\User\\Downloads" --dry-run
 """
 
 import argparse
